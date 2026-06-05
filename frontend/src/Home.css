@@ -1,0 +1,41 @@
+/* 
+ .home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .category-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .category-button {
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    font-size: 1 em;
+    text-decoration: none;
+    border-radius: 8px;
+    height:15px;
+    text-align: center;
+    
+  }
+  
+  .category-button:hover {
+    background-color:white;
+    color:black;
+  }
+  
+  .home-message {
+    margin-top: 30px;
+  }
+  
+  .home-message h1 {
+    font-size: 2.5em;
+  }
+  
+  .home-message p {
+    font-size: 1.2em;
+  }
+  */

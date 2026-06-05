@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+
+  }
+  
+  
+  .paper {
+    padding: 30px;
+  }
+  
+  .paper h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow:  .2rem .2rem 0 rgba(0, 0, 0, .2);
+  }
+  .paper h1 span{
+    text-shadow:  .2rem .2rem 0 rgba(0, 0, 0, .2);
+
+  }
+  
+  
+  .cardten {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+  }
+  
+  
+  .first {
+    border:2px solid #16a085;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    height: 250px;
+    width:350px; 
+    box-shadow: .4rem .4rem 0 rgba(22, 160, 133, .2);
+
+    
+  }
+  
+  .first img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  
+  }
+  .first button span {
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 25px;
+    padding: 0 0;
+    background-color: #16a085;
+    color: white;
+  }
+  .first button:hover span {
+    color: #16a085;
+    background-color: white;
+    transform: translateX(10px); 
+    transition: transform 1s ease;
+
+}
+  
+  .first h3 {
+    font-size: 1.4rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .first p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  
+  /* .first button {
+    color: black;
+    border: 2px solid #16a085 !important;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    width: 150px;
+    transition: background-color 0.3s ease;
+  } */
+  
+  /* .first button:hover {
+    background-color: #16a085;
+  } */
+
+  @media  screen and (max-width:480px) and (min-width: 320px){
+    .paper h1{
+      font-size: 40px;
+      font-weight: bold;
+      margin-top: 50px;
+    }
+    .paper h1 span{
+      color: #16a085;
+    }
+    .paper{
+      padding: 0 10%;
+      margin: 0 0;
+      justify-content: center;
+      align-items: center;
+    }
+    .first h3{
+      font-size: 20px;
+    }
+    .first p{
+      font-size: 11.2px;
+    }
+    .first{
+      width: 100%;
+      padding: 10px 20px;
+      margin: 0 0;
+      text-align: justify;
+    }
+    .first img{
+      padding: 0 0;
+    }
+    .cardten{
+      align-items: center;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    .first button{
+      width: fit-content;
+      padding: 0 10px;
+    }
+  }
+
+
+  @media  screen and  (min-width: 1500px){
+      .cardten{
+        margin: 0 10%;
+        width: 80%;
+      }
+      
+  }
+
+
+  @media  screen and (max-width:768px) and (min-width: 425px){
+  .cardten{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .first{
+    width: 100%;
+    height: fit-content;
+  }
+  
+  }
+
+
+  @media  screen and (max-width:1024px) and (min-width: 768px){
+    .first{
+      width:45%;
+      height: fit-content;
+    }
+  }
