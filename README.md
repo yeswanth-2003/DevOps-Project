@@ -16,11 +16,10 @@ Requirements: Node.js (16+), npm, MongoDB (or MongoDB Atlas)
 
      npm install
 
-   - Create a `.env` in `backend/` with the following variables:
+   - Copy `backend/.env.example` to `backend/.env` and fill in your real values:
 
      PORT=5000
-     DATABASE_URL=<your-mongo-connection-string>
-     JWT_SECRET=<your-jwt-secret>
+     MONGO_URI=<your-mongo-connection-string>
      TWILIO_ACCOUNT_SID=<your-twilio-account-sid>
      TWILIO_AUTH_TOKEN=<your-twilio-auth-token>
      TWILIO_PHONE_NUMBER=<your-twilio-phone-number>
